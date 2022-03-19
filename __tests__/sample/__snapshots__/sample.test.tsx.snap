@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sample /> should render 1`] = `
+<StyledContainer>
+  <FormattedMessage
+    id="sample.homepage.title"
+    tagName="h1"
+  />
+  <FormattedMessage
+    id="sample.homepage.description"
+    tagName="h3"
+  />
+  <div>
+    Languages:
+    <button
+      onClick={[Function]}
+    >
+      English
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      עברית
+    </button>
+  </div>
+  <img
+    alt="refresh"
+    onClick={[Function]}
+    src="https://www.materialui.co/materialIcons/navigation/refresh_grey_192x192.png"
+  />
+  <h2>
+    Posts from remote server
+  </h2>
+  <div />
+</StyledContainer>
+`;
+
+exports[`<Sample /> should render 3 posts 1`] = `
+<StyledContainer>
+  <FormattedMessage
+    id="sample.homepage.title"
+    tagName="h1"
+  />
+  <FormattedMessage
+    id="sample.homepage.description"
+    tagName="h3"
+  />
+  <div>
+    Languages:
+    <button
+      onClick={[Function]}
+    >
+      English
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      עברית
+    </button>
+  </div>
+  <img
+    alt="refresh"
+    onClick={[Function]}
+    src="https://www.materialui.co/materialIcons/navigation/refresh_grey_192x192.png"
+  />
+  <h2>
+    Posts from remote server
+  </h2>
+  <div>
+    <StyledPost
+      key="1"
+    >
+      <h4>
+        first post
+      </h4>
+      <p>
+        first post content
+      </p>
+    </StyledPost>
+    <StyledPost
+      key="2"
+    >
+      <h4>
+        second post
+      </h4>
+      <p>
+        second post content
+      </p>
+    </StyledPost>
+    <StyledPost
+      key="3"
+    >
+      <h4>
+        third post
+      </h4>
+      <p>
+        third post content
+      </p>
+    </StyledPost>
+  </div>
+</StyledContainer>
+`;
+
+exports[`<Sample /> should render loading when component is in loading state 1`] = `
+<StyledContainer>
+  <FormattedMessage
+    id="sample.homepage.title"
+    tagName="h1"
+  />
+  <FormattedMessage
+    id="sample.homepage.description"
+    tagName="h3"
+  />
+  <div>
+    Languages:
+    <button
+      onClick={[Function]}
+    >
+      English
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      עברית
+    </button>
+  </div>
+  <img
+    alt="refresh"
+    onClick={[Function]}
+    src="https://www.materialui.co/materialIcons/navigation/refresh_grey_192x192.png"
+  />
+  <h2>
+    Posts from remote server
+  </h2>
+  <FormattedMessage
+    id="sample.common.loading"
+  />
+</StyledContainer>
+`;
